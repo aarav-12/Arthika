@@ -159,7 +159,7 @@ const PaymentTransferForm = ({ accounts }: PaymentTransferFormProps) => {
           <h2 className="text-18 font-semibold text-gray-900">
             Bank account details
           </h2>
-          <p className="text-16 font-normal text-gray-600">
+          <p className="text-[16px] font-normal text-gray-600">
             Enter the bank account details of the recipient
           </p>
         </div>

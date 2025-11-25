@@ -50,7 +50,7 @@ const BankInfo = ({ account, appwriteItemId, type }: BankInfoProps) => {
       <div className="flex w-full flex-1 flex-col justify-center gap-1">
         <div className="bank-info_content">
           <h2
-            className={`text-16 line-clamp-1 flex-1 font-bold text-blue-900 ${colors.title}`}
+            className={`text-[16px] line-clamp-1 flex-1 font-bold text-blue-900 ${colors.title}`}
           >
             {account.name}
           </h2>
@@ -63,7 +63,7 @@ const BankInfo = ({ account, appwriteItemId, type }: BankInfoProps) => {
           )}
         </div>
 
-        <p className={`text-16 font-medium text-blue-700 ${colors.subText}`}>
+        <p className={`text-[16px] font-medium text-blue-700 ${colors.subText}`}>
           {formatAmount(account.currentBalance)}
         </p>
       </div>
